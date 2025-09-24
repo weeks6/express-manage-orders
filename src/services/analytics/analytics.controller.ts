@@ -15,8 +15,7 @@ export function getWeeklyAnalytics(_: Request, res: Response) {
 
 	orders.forEach((order) => {
 		const createdDate = new Date(order.createdAt);
-
-		if (createdDate >= sevenDaysAgo) return;
+		if (createdDate < sevenDaysAgo) return;
 
 		const totalSum = getOrderTotalSum(order);
 		ordersCount += 1;

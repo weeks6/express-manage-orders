@@ -33,6 +33,6 @@ export const orders: Order[] = [
 				quantity: 1,
 			},
 		],
-		createdAt: new Date(1727196659).toISOString(),
+		createdAt: new Date(1727196659000).toISOString(),
 	},
 ];
