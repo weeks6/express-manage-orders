@@ -124,4 +124,5 @@ curl http://localhost:3000/analytics/weekly
 
 Аналитика за неделю
 <img width="428" height="455" alt="image" src="https://github.com/user-attachments/assets/70eb9c7e-4e97-4986-a99c-dec97e145e7a" />
+<img width="1171" height="482" alt="image" src="https://github.com/user-attachments/assets/ba597426-4aed-4fc7-8aab-e1c808019668" />
 
