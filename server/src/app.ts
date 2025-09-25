@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import cors from 'cors';
 import express from 'express';
 import ordersRouter from './services/orders/orders.router.js';
 import analyticsRouter from './services/analytics/analytics.router.js';
@@ -20,6 +21,7 @@ const app = express();
 
 app.use(express.json());
 
+app.use(cors());
 app.use(loggerMiddleware);
 
 app.use('/orders', ordersRouter);

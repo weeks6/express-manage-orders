@@ -35,4 +35,33 @@ export const orders: Order[] = [
 		],
 		createdAt: new Date(1727196659000).toISOString(),
 	},
+	{
+		id: 2,
+		customerId: 3,
+		items: [
+			{
+				price: 1000,
+				productId: 4,
+				quantity: 2,
+			},
+			{
+				price: 10000,
+				productId: 3,
+				quantity: 1,
+			},
+		],
+		createdAt: new Date(1758827609000).toISOString(),
+	},
+	{
+		id: 3,
+		customerId: 4,
+		items: [
+			{
+				price: 1000,
+				productId: 4,
+				quantity: 2,
+			},
+		],
+		createdAt: new Date(1758827609000).toISOString(),
+	},
 ];

@@ -40,3 +40,7 @@ export function getOrder(req: Request, res: Response) {
 		isBigOrder: isBigOrder(totalSum),
 	});
 }
+
+export function getOrders(_: Request, res: Response) {
+	res.status(200).json({ data: orders });
+}
